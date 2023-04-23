@@ -103,7 +103,7 @@ def test(
 
             #print(len(testloader))
 
-            total_loss += criterion(outputs.cpu(), labels.type(torch.int).cpu()).item()
+            total_loss += criterion(outputs, labels).item()
             n_samples += labels.size(0)
 
             acc = Accuracy(task='multiclass', num_classes=3)(outputs.cpu(), labels.type(torch.int).cpu())
