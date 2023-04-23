@@ -1,4 +1,4 @@
-# Federated LGBM on Penguins
+# Federated LGBM on Penguins Dataset
 
 ![Alt text](images/penguins.png "three penguins")
 Artwork by @allison_horst
