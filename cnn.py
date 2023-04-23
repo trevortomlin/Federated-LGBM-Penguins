@@ -23,7 +23,6 @@ class CNN(nn.Module):
         x = self.ReLU(self.conv1d(x))
         x = x.flatten(start_dim=1)
         x = self.ReLU(x)
-        #x = self.Sigmoid(self.layer_direct(x))
         x = self.layer_direct(x)
         return x
   
