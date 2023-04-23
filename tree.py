@@ -1,3 +1,10 @@
+'''
+License: Apache
+Original Authors: Flower
+https://github.com/adap/flower
+Modified by: Trevor Tomlin
+'''
+
 from typing import Any, Optional
 import lightgbm as lgb
 import numpy as np
@@ -31,15 +38,8 @@ def single_tree_prediction(tree: lgb.LGBMClassifier, n_tree: int, dataset: NDArr
     ensemble."""
     # How to access a single tree
     # https://github.com/bmreiniger/datascience.stackexchange/blob/master/57905.ipynb
-    # num_t = len(tree.booster_.model_to_string())
-    # if n_tree > num_t:
-    #     print(
-    #         "The tree index to be extracted is larger than the total number of trees."
-    #     )
-    #     return None
-
     return tree.predict(  # type: ignore
-        dataset#, iteration_range=(n_tree, n_tree + 1), output_margin=True
+        dataset
     )
 
 def tree_encoding(  # pylint: disable=R0914

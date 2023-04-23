@@ -1,3 +1,10 @@
+'''
+License: Apache
+Original Authors: Flower
+https://github.com/adap/flower
+Modified by: Trevor Tomlin
+'''
+
 import torch, torch.nn as nn
 from config import *
 import numpy as np

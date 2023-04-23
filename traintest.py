@@ -1,3 +1,10 @@
+'''
+License: Apache
+Original Authors: Flower
+https://github.com/adap/flower
+Modified by: Trevor Tomlin
+'''
+
 from typing import Tuple
 import torch
 from torchmetrics import Accuracy

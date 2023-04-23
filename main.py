@@ -1,3 +1,11 @@
+'''
+License: Apache
+Original Authors: Flower
+https://github.com/adap/flower
+Modified by: Trevor Tomlin
+'''
+
+
 import flwr as fl
 from typing import Dict
 import torch.nn as nn

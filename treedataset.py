@@ -1,3 +1,10 @@
+'''
+License: Apache
+Original Authors: Flower
+https://github.com/adap/flower
+Modified by: Trevor Tomlin
+'''
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split

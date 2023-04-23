@@ -1,3 +1,10 @@
+'''
+License: Apache
+Original Authors: Flower
+https://github.com/adap/flower
+Modified by: Trevor Tomlin
+'''
+
 import torch
 import flwr as fl
 from torch.utils.data import DataLoader

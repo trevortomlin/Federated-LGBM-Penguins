@@ -1,3 +1,10 @@
+'''
+License: Apache
+Original Authors: Flower
+https://github.com/adap/flower
+Modified by: Trevor Tomlin
+'''
+
 import timeit
 from typing import Dict, Optional, Tuple, Union, List
 import flwr as fl
