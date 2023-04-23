@@ -7,7 +7,7 @@ import flwr as fl
 class CNN(nn.Module):
     def __init__(self, n_channel: int=64) -> None:
         super(CNN, self).__init__()
-        n_out = 1
+        n_out = 3
         self.conv1d = nn.Conv1d(1, n_channel, kernel_size=client_tree_num, stride=client_tree_num, padding=0)
         self.layer_direct = nn.Linear(n_channel * client_num, n_out)
         self.ReLU = nn.ReLU()
