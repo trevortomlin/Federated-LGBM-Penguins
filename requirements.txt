@@ -1,0 +1,8 @@
+scikit-learn
+flwr[simulation]==1.4
+ray
+torch
+torchmetrics
+tqdm
+pandas
+lightgbm
